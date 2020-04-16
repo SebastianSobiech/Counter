@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: linear-gradient(120deg, #101f2e, #172c42);
+    color: #fff;
+    /* Push to bottom */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100vh;
+}
+
+header {
+    flex: 1;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header h1 {
+    font-size: 60px;
+}
+
+.counters i {
+    color: lightskyblue;
+    margin-bottom: 5px;
+}
+
+.counters .counter {
+    font-size: 45px;
+    margin: 10px 0;
+}
+
+.container {
+    display: flex;
+    height: 300px;
+}
+
+.container div {
+    flex: 1;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.container-box:nth-child(1n) {
+    background: rgb(16, 31, 46);
+}
+
+.container-box:nth-child(2n) {
+    background: rgb(18, 34, 51);
+}
+
+.container-box:nth-child(3n) {
+    background: rgb(21, 38, 56);
+}
+
+.container-box:nth-child(4n) {
+    background: rgb(23, 44, 66);
+}
